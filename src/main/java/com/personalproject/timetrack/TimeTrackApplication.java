@@ -14,7 +14,6 @@ public class TimeTrackApplication {
 		SpringApplication.run(TimeTrackApplication.class, args);
 	}
 
-
 	@Value("${pagination.quantity}")
 	private int quantityPerPages;
 
